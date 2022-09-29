@@ -1,0 +1,11 @@
+golang-github-knqyf263-go-deb-version (0.0~git20170509.9865fe1-1) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>  Thu, 28 Apr 2022 09:19:10 +0800
+
+golang-github-knqyf263-go-deb-version (0.0~git20170509.9865fe1-1) unstable; urgency=medium
+
+  * Initial release (Closes: #884146)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Fri, 24 Nov 2017 00:55:26 +0900

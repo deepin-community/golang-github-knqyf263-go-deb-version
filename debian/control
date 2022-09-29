@@ -1,0 +1,21 @@
+Source: golang-github-knqyf263-go-deb-version
+Section: devel
+Priority: optional
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-any
+Standards-Version: 4.1.1
+Homepage: https://github.com/knqyf263/go-deb-version
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-knqyf263-go-deb-version.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-knqyf263-go-deb-version.git
+XS-Go-Import-Path: github.com/knqyf263/go-deb-version
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-github-knqyf263-go-deb-version-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: golang library for parsing deb package versions
+ go-deb-version is a golang library for parsing and comparing versions.
